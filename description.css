@@ -1,0 +1,196 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url('./backg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Quicksand", sans-serif;
+    
+}
+.header{
+    padding: 6px;
+    background-color:transparent;
+    width: 100%;
+    color: white;
+}
+.header .links{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-right: 15px;
+    /* background-color: blue; */
+}
+.header .links a{
+    padding: 4px;
+    text-decoration: none;
+    color:white;
+    
+
+}
+.header .links a:hover{
+    color:purple;
+}
+.about h1{
+    color: white;
+    margin-top: 2cm;
+    font-weight: 800;
+    font-size: 30px;
+    margin: 6px;
+}
+.about p{
+    margin: 16px;
+    color: white;
+    font-size: large;
+}
+.container{
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card{
+    height: 280px;
+    width: 280px;
+    border-radius: 25px;
+    margin: 0 20px;
+    background: white;
+    transition: 0.4s;
+}
+.card:hover{
+    height: 480px;
+
+}
+.card .image{
+    height: 200px;
+    width: 100%;
+}
+.card .image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.card .top-text{
+    padding: 5px;
+    text-align: center;
+}
+.card .top-text .name{
+    font-size: 25px;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+
+}
+.card .top-text p{
+    font-size: 20px;
+    font-weight: 600;
+    color: purple;
+    line-height: 20px;
+    text-align: center;
+}
+.card .bottom-text{
+    padding: 0 20px 10px 20px;
+    margin-top: 5px;
+    background: white;
+
+    border-radius: 25px;
+    
+    transition: 0.1s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.card:hover .bottom-text{
+    opacity: 1;
+    visibility: visible;
+
+    
+}
+.card .bottom-text .text{
+    text-align: center;
+    font-size: 20px;
+
+}
+.card .bottom-text .btn{
+    margin: 10px 0;
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+}
+
+
+.card .bottom-text .btn a{
+    text-decoration: none;
+    background: purple;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 3px;
+    display: inline-flex;
+    transition: 0.2s;
+}
+
+.card .bottom-text .btn a:hover{
+    transform: scale(0.9);
+    background: transparent;
+    border: 2px solid purple;
+    color: black;
+}
+.bkb{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.281);
+}
+@media  screen and (max-width:978px) {
+    .container{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .card{
+        max-width: 700px;
+        margin: 20px 0;
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

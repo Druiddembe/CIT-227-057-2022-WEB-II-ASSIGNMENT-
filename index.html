@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CIT-227-057/2022 EMANUEL MARITA</title><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div class="introduction">
+
+     <div class="bckg">
+        <header>
+            
+            <div class="header">
+                
+                <div class="links">
+                    
+                    <span>MARITA ADVENTURES.</span>  
+                    <a href="test.html">HOME</a>
+                    <a href="product.html"> DESCRIPTION</a>
+                    <a href="enquir.html">ENQUIRIES</a>
+                    <a href="contact.html">CONTACT US</a>
+                    <button onclick="showSideBar()" id="menuId"><i style="color: white;" class="fa-solid fa-bars"></i></button>
+                </div>
+
+                <div class="sideBarLinks">
+                    <button onclick="hideSideBar()" id="hideMenu"><i class="fa-solid fa-x" style="color: #ffffff;"></i></button>
+                      
+                    <a href="test.html">HOME</a>
+                    <a href="product.html"> DESCRIPTION</a>
+                    <a href="enquir.html">ENQUIRIES</a>
+                    <a href="contact.html">CONTACT US</a>
+                    
+                </div>
+            </div>
+        </header>
+        <section class="section">
+            <h1>Do you want to explore the world ?</h1>
+            <p>Discore the world with Marita Adventures , your gateway tounforgettable travel experiences. <br>
+                Whether you're seeking a thrilling adventure , a tranquil retreat, or a cultural immersion ,we have
+                the perfect journey waiting for you. <br>Explore our divese range of destinations , from pristine beaches and enchanting
+                forests to bustling cities and encient ruins. <br>Our expertly crafted itineraries are designed to carter to every traveller's unique
+                interests and preferences.
+                
+            </p>
+            
+            <button id="readMoreBtn" onclick="showProducts()" >READ MORE</button>
+            <script>
+                function showProducts(){
+                    window.getElementById('readMoreBtn').location.href='./product.html';
+
+                }
+                
+            </script>
+        </section>
+       </div>
+ </div>
+</body>
+<script src="index.js"></script>
+</html>

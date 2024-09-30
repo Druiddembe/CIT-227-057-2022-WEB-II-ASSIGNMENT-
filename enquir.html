@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-image: url('./beach.jpg');
+            background-repeat:no-repeat;
+            background-size: cover;
+            color: white;
+            padding: 0;
+            min-height: 100vh;
+
+        }
+        .header{
+            padding: 6px;
+            background-color:transparent;
+            width: 100%;
+            color: white;
+        }
+        .header .links{
+            display: flex;
+            justify-content: end;
+            align-items: end;
+            margin-right: 15px;
+            /* background-color: blue; */
+        }
+        .header .links a{
+            padding: 4px;
+            text-decoration: none;
+            color:white;
+            
+        
+        }
+        .header .links a:hover{
+            color:green;
+        }
+        h1 span{
+            font-size:60px;
+        }
+       
+        p {
+            font-weight: 300;
+            font-size: larger;
+            word-spacing: 1px;
+            margin: 20px 0;
+        }
+
+        input{
+            background: transparent;
+            width: 50%;
+            height: 40px;
+            border-radius: 5px;
+            border: 1px solid white;
+            color: white;
+
+        }
+        h6{
+            font-size: larger;
+            margin-bottom: 0;
+
+        }
+        button{
+            
+            
+            background: transparent;
+            text-align: center;
+            color: white;
+            border-radius: 5px;
+            border: 1px solid white;
+            padding: 5px 15px;
+            width: auto;
+
+        }
+        button:hover{
+            background: transparent;
+            color: black;
+            border: 2px solid black;
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+            
+        }
+        textarea{
+            background: transparent;
+            border-radius: 5px;
+            border: 1px solid white;
+            width: 50%;
+        }
+        .background{
+            height: 100%;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.397);
+            padding: 0;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="background">
+    <header>
+       
+        <div class="header">
+           
+            <div class="links">
+                
+              
+              <a href="C:\Users\philo\Desktop\web dev assignment\index.html">HOME</a>
+              <a href="C:\Users\philo\Desktop\web dev assignment\product.html"> DESCRIPTION</a>
+              <a href="C:\Users\philo\Desktop\web dev assignment\enquir.html">ENQUIRIES</a>
+              <a href="C:\Users\philo\Desktop\web dev assignment\about.html">CONTACT US</a>
+         </div>
+    </div>
+</header>
+    <h1>Enquiry form.</h1>
+    <p>Your feedback matters to us .Please make sure you leave a message about the quality of our services. <br>
+    Incase of any questions regarding the services we offer, booking charges , accomodation or any other general question about <br>
+    our agency , make sure to leave your details below and our team will reach out to you. Thank you!</p>
+    <div class="container">
+        <h6>Name</h6>
+        <input type="text" placeholder="Marita Emmanuel">
+        <h6>Email</h6>
+        <input type="email" placeholder="marita@gmail.com">
+        <h6>Telephone number</h6>
+        <input type="number" placeholder="07934573--">
+        <h6>Enquiry</h6>
+        <textarea name="enquiry" id="" cols="10" rows="10"></textarea>
+       
+    </div>
+    <button>SUBMIT</button>
+</div>
+</body>
+</html>

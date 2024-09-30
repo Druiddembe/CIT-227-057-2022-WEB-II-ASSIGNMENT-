@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+
+        }
+        body{
+            width: 100%;
+            height: 100vh;
+            background-image: url('serengeti.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        
+.header{
+    padding: 6px;
+    background-color:transparent;
+    width: 100%;
+    color: white;
+    
+}
+.header .links{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-right: 15px;
+    /* background-color: blue; */
+}
+.header .links a{
+    padding: 4px;
+    text-decoration: none;
+    color:black;
+    
+
+}
+.header .links a:hover{
+    color:blue;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    
+}
+.right{
+    width: 20%;
+    height: 100%;
+    
+    display: flex;
+    
+    flex-direction: column;
+    gap: 0;
+  
+}
+.pic{
+    height: 50%;
+    
+    
+}
+.pic img{
+    height: 100%;
+    width: 100%;
+
+} 
+.txt{
+    height: 50%;
+    background-color: rgba(0, 0, 0, 0.774);
+    text-align: center;
+}
+.left{
+    width: 80%;
+    height: 100%;
+    
+
+    color: white;
+}
+.left     p {
+    font-weight: 300;
+    font-size: larger;
+    word-spacing: 1px;
+    padding: 40px;
+}
+.right    p {
+    font-weight: 300;
+    font-size: larger;
+    word-spacing: 1px;
+    color: white;
+    
+}
+.right button {
+    background: purple;
+    width: 50%;
+    height: 40px;
+    border:none;
+    border-radius:5px ;
+}
+.right button a{
+    color:black;
+
+    text-decoration: none;
+    
+    
+}
+
+    </style>
+</head>
+<body>
+    
+    <header>
+       
+        <div class="header">
+           
+            <div class="links">
+                
+               
+              <a href="C:\Users\philo\Desktop\web dev assignment\index.html">HOME</a>
+              <a href="C:\Users\philo\Desktop\web dev assignment\product.html"> DESCRIPTION</a>
+              <a href="C:\Users\philo\Desktop\web dev assignment\enquir.html">ENQUIRIES</a>
+              <a href="C:\Users\philo\Desktop\web dev assignment\about.html">CONTACT US</a>
+         </div>
+    </div>
+    </header>
+    <div class="container">
+        <div class="left">
+          <h1 style="font-size: xx-larger; text-align:center; margin-top:10px; ">About Us</h1>
+            <p>Founded in 1992 , our firm boast over more than 60 staff team who areready to attend to your needs <br>
+            To reach out to us ; <br> email us at maritaadventure@gmail.com <br> Or through our office telephone: 0700678763 <br>
+            You can also pay a visit to our offices located on the 4th floor of Miguas Towers opposite the national archives in Nairobi. <br>
+            Lets explore the world together. </p>
+        </div>
+        <div class="right">
+            <div class="pic">
+               <img src="IMG_20240320_233142_071.jpg" alt=""> 
+            </div>
+         <div class="txt">
+            <h2 style="color: white; margin-left:4px; padding:10px;">Do you have a question ?</h2>
+            <p style="padding:10px;">Press the button below and feel free.</p>
+            <button style="padding:10px;"><a href="C:\Users\philo\Desktop\web dev assignment\enquir.html">Find out more</a></button>
+         </div>
+        </div>
+    
+</div>
+</body>
+</html>
